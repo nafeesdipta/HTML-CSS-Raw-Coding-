@@ -83,7 +83,7 @@ h3 {
 /* Responsive Image */
 
 div.gallery {
-    border: 1px solid #ccc;
+    padding: 25px;
 }
 
 div.gallery:hover {
@@ -123,6 +123,13 @@ div.desc {
     .responsive {
         width: 100%;
     }
+}
+
+div.map {
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    border-bottom-color: #333
 }
 
 .clearfix:after {
