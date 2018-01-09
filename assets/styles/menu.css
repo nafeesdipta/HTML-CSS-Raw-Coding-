@@ -7,7 +7,7 @@ ul {
 }
 
 p {
-    color: #160202
+    color: #f5e6e6
 }
 
 
@@ -22,11 +22,6 @@ div.container {
     padding: 10px;
 }
 */
-
-body {
-    background-size: cover;
-    background-image: url("./resources/images/a.jpg")
-}
 
 li {
     float: left;
@@ -76,7 +71,7 @@ li.dropdown {
 }
 
 h3 {
-    color: #140a0a
+    color: #eee7e7
 }
 
 

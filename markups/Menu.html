@@ -7,6 +7,12 @@
 </head>
 
 <body>
+    <style>
+        body {
+            background-size: cover;
+            background-image: url("../assets/resources/images/a.jpg")
+        }
+    </style>
     <ul>
         <li>
             <a href="#home">Home</a>
@@ -26,7 +32,8 @@
     </ul>
 
     <h3>Website is underconstruction !!!</h3>
-    <p>Hover over the "Place & Order" link to see the dropdown menu</p>
+    <p>Hover over the "Place & Order" link to see the dropdown menu. These Images are resizable.</p>
+    <p>Resize your Window to see the effects</p>
     <!--
     <div class="polaroid">
         <img src="../assets/resources/images/f1.jpeg" alt="Food" style="width:100%">
@@ -64,10 +71,11 @@
     </div>
 
     <div class="clearfix"></div>
-
-    <div style="padding:6px;">
-        <p>The Images can be seen vertically if the window is resized...</p>
-
+    <div>
+        <h2>Click Here to Show Current Date & Time</h2>
+        <button type="button" onclick="document.getElementById('demo').innerHTML= Date()">
+Click Me</button>
+        <p id="demo"></p>
     </div>
     <div class="map">
         <p>Map of the location</p>
@@ -75,6 +83,7 @@
             width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
     </div>
+
 </body>
 
 </html>
